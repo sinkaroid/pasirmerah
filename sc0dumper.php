@@ -19,7 +19,6 @@ if($_GET['action'] == 'login'){
     }
     exit();
 }
-
 echo '<!DOCTYPE html>
 <html>
 <head>
