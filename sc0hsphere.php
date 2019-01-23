@@ -5,9 +5,9 @@ $title = "HSpere Scanner" ;
 
 $dir = "<table border='1' style='border-collapse: collapse'>
         <tr>
-        	<td>ServerName</td>
-        	<td>DocumentRoot</td>
-        	<td>Vulnerable</td>
+       	<td>ServerName</td>
+       	<td>DocumentRoot</td>
+        <td>Vulnerable</td>
         </tr>
         ";
 $chsphere = "/hsphere/local/config/httpd/sites/";
